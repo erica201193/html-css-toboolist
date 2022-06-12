@@ -2,18 +2,160 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
-.container{
-    width: 900px;
-    margin: auto;
-    background-color: #b7b9b9;
+
+body {
+    background-color: rgba(128, 128, 128, 0.126);
 }
+
 header {
-    width: 900px;
-    height: 100px;
+    width: 100%;
     background-color: #fff;
 }
-h1{
+
+img {
+    vertical-align: middle;
+}
+
+
+header h1{
     display: inline-block;
     color: #041931;
+    padding: 10px 0 10px 0;
+    vertical-align: middle;
+    font-size: 35px;
 }
+
+main {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: #FFFFFF;
+    margin: 30px auto 2px auto;
+    padding: 10px 50px 10px;
+}
+
+ul li {
+    list-style: none;
+    padding: 5px 50px 5px;
+}
+
+h3 {
+    display: inline-block;
+}
+
+li span {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+.pad-3 {
+    padding-left: 4rem;
+}
+
+
+
+.container{
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+
+.list-container {
+    max-width: 700px;
+    background-color: #FFFFFF;
+}
+
+.list-title {
+    padding: 25px 50px 5px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+
+}
+
+.bg-blue {
+    color: #FFFFFF;
+    background-color: #41ABF4;
+    border-color: #41ABF4;
+}
+
+.btn-transparent {
+    color: rgba(172, 167, 167, 0.614);
+    background-color: #FFFFFF;
+    border-color: rgba(172, 167, 167, 0.504);
+}
+
+
+.checkbox {
+    display: inline-block;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+.done-checkbox {
+    color: #60C0A9;
+    border: 1px solid #60C0A9;
+}
+
+.dont-checkbox {
+    color: red;
+    border: 1px solid red;
+}
+
+.list-tag {
+    color: #FFFFFF;
+    font-size: 0.7rem;
+    display: inline-block;
+    padding: 0.3rem 0.4rem;
+    border: 1px solid transparent;
+    border-radius: 0.6rem;
+}
+
+/* Background colors tag */
+
+.bg-violet {
+    color: #FFFFFF;
+    background-color: #9D6EE7;
+    border-color: #9D6EE7;
+}
+
+.bg-bluegreen {
+    color: #FFFFFF;
+    background-color: #60C0A9;
+    border-color: #60C0A9;
+}
+
+.bg-orange {
+    color: #FFFFFF;
+    background-color: #F49F1E;
+    border-color: #F49F1E;
+}
+
+.bg-pink {
+    color: #FFFFFF;
+    background-color: #DA61A1;
+    border-color: #DA61A1;
+}
+
+.bg-green {
+    color: #FFFFFF;
+    background-color: #B0CB00;
+    border-color: #B0CB00;
+}
+
+
+

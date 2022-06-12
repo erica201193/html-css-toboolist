@@ -4,31 +4,130 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome kit -->
+    <script src="https://kit.fontawesome.com/7fce092bdf.js" crossorigin="anonymous"></script>
+    
+    <!-- Google Fonts kit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
     <title>Toboolist</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
+    <header>
+        <div class="pad-3">
             <img src="img/logo copia.png" alt="Logo boolist">
-            <h1 class="titolo-logo">Toboolist</h1>
-        
-        </header>
-        
-        <nav>
-            <button type="button">Add Task</button>
-            <button type="button">Add Section</button>
-            <hr>
-        </nav>
-        
-        <main>
-            <div class="new-task">
-                <h3>New Task</h3>
-            </div>
-        
-        </main>
-            
-    </div>
+            <h1 class="titolo-logo">Toboolist</h1>   
+        </div> 
+    </header>
 
+    <div class="container">
+        <main>
+            <nav>
+                <button type="button" class="btn bg-blue">Add Task</button>
+                <button type="button"class="btn btn-transparent">Add Section</button>
+            </nav>
+
+            <div class="list-container">
+                <div class="list-title">
+                    <div class="checkbox">
+                        <i class="fa-solid fa-caret-down fa-lg"></i>
+                    </div>
+                    <h3>New Task</h3>
+                </div>
+                <ul>
+                    <li>
+                        <div class="checkbox done-checkbox">
+                            <i class="fa-solid fa-check fa-xs"></i>
+                        </div>
+                        <span>Quarterly Newsletter</span>
+                        <button type="button" class="list-tag bg-blue">Editorial</button>
+                    </li>
+                </ul>
+
+                <div class="list-title">
+                    <div class="checkbox">
+                        <i class="fa-solid fa-caret-down fa-lg"></i>
+                    </div>
+                    <h3>Today</h3>
+                </div>
+                <ul>
+                    <li>
+                        <div class="checkbox done-checkbox">
+                            <i class="fa-solid fa-check fa-xs"></i>
+                        </div>
+                        <span>Recruiting blog post</span>
+                        <button type="button" class="list-tag bg-blue">Editorial</button>
+                    </li>
+                    <li>
+                        <div class="checkbox done-checkbox">
+                            <i class="fa-solid fa-check fa-xs"></i>
+                        </div>
+                        <span>Mobile app launch</span>
+                        <button type="button" class="list-tag bg-violet">Q1 Goals</button>
+                    </li>
+                    <li>
+                        <div class="checkbox dont-checkbox">
+                            <i class="fa-solid fa-xmark fa-xs"></i>
+                        </div>
+                        <span>Interview John H.</span>
+                        <button type="button" class="list-tag bg-bluegreen">Recruiting</button>
+                    </li>
+                    <li>
+                        <div class="checkbox done-checkbox">
+                            <i class="fa-solid fa-check fa-xs"></i>
+                        </div>
+                        <span>Summit update to mobile storefronts</span>
+                        <button type="button" class="list-tag bg-orange">Mobile</button>
+                    </li>
+                </ul>
+
+                <div class="list-title">
+                    <div class="checkbox">
+                        <i class="fa-solid fa-caret-down fa-lg"></i>
+                    </div>
+                    <h3>Upcoming</h3>
+                </div>
+                <ul>
+                    <li>
+                        <div class="checkbox dont-checkbox">
+                            <i class="fa-solid fa-xmark fa-xs"></i>
+                        </div>
+                        <span>Schedule meeting with Alex</span>
+
+                    </li>
+                    <li>
+                        <div class="checkbox done-checkbox">
+                            <i class="fa-solid fa-check fa-xs"></i>
+                        </div>
+                        <span>Homepage refresh</span>
+                        <button type="button" class="list-tag bg-pink">Website</button>
+                    </li>
+                    <li>
+                        <div class="checkbox done-checkbox">
+                            <i class="fa-solid fa-check fa-xs"></i>
+                        </div>
+                        <span>Onboard new Sales team members</span>
+                        <button type="button" class="list-tag bg-green">Sales</button>
+                    </li>
+                    <li>
+                        <div class="checkbox done-checkbox">
+                            <i class="fa-solid fa-check fa-xs"></i>
+                        </div>
+                        <span>Review editorial calendar</span>
+                        <button type="button" class="list-tag bg-blue">Editorial</button>
+                    </li>
+                </ul>
+
+
+            </div>
+        </main>
+
+    
+    </div>
+    
 </body>
 </html>
